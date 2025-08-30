@@ -1,0 +1,176 @@
+* {
+    font-family: 'Rubik', 'Open Sans', 'Helvetica';
+    background-color: white;
+}
+
+body {
+    margin: 0;
+}
+
+.content {
+    border-left: 2.5rem solid #fefae0;
+    min-height: 93.5vh;
+}
+
+h1 {
+    margin: 0;
+    padding-top:1.5rem;
+    padding-left: 2.5rem;
+    color: #d4a373;
+}
+
+h2 {
+    padding-left: 2.5rem;
+    color: grey;
+}
+
+p {
+    padding-left: 2.5rem;
+    padding-right: 10%;
+    padding-bottom: 0.25rem;
+    margin-bottom: 0;
+}
+
+a {
+    color: black;
+}
+
+dl {
+    padding-left: 2.5rem;
+    padding-right: 15%;
+}
+
+dt {
+    padding-bottom: 0.25rem;
+}
+
+dd {
+    display: list-item;
+    list-style-type: disc;
+    padding-bottom: 0.25rem;
+}
+
+#softimg {
+    border-radius: 5rem;
+    max-width: 20rem;
+    float: right;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 1rem;
+    padding: 1rem 3rem 1rem 3rem;
+}
+
+#refimg {
+    max-width: 14rem;
+    float: right;
+    padding-left: 1.5rem;
+    padding-right: 4.5rem;
+    padding-bottom: 1rem;
+}
+
+#rgpimg {
+    max-width: 16rem;
+    float: right;
+    padding-left: 2rem;
+    padding-right: 3rem;
+    padding-bottom: 0.5rem;
+}
+
+#oKimg {
+    max-width: 32rem;
+    float: right;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 0.5rem;
+}
+
+table {
+    margin: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    background-color: #e9edc9;
+}
+
+td {
+    width: 25rem;
+    height: 6rem;
+    text-align: left;
+    vertical-align: top;
+    background-color: #fefae0;
+}
+
+table p {
+    padding: 0.25rem;
+    margin: 0;
+    background-color: #fefae0;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+#navbar {
+    display: flex;
+    justify-content: end;
+    background-color: #ccd5ae;
+    margin: 0;
+    position: sticky;
+    top: 0;
+}
+
+#navbar li {
+    list-style-type: none;
+    margin: 0;
+    padding: 1rem;
+    background-color: #ccd5ae;
+    border-left: 0.2rem solid #fefae0;
+}
+
+#navbar li:hover {
+    background-color: #fefae0;
+    text-decoration-line: underline;
+}
+
+#navbar a {
+    text-decoration-line: none;
+    background-color: inherit;
+}
+
+#navbar a:visited {
+    color: black;
+}
+
+#navbar a:active {
+    color: white;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+#dropdown-content {
+    display: none;
+    position: absolute;
+}
+
+#dropdown-content li {
+    padding-right: 4rem;
+}
+
+.dropdown:hover #dropdown-content {
+    display: block;
+}
+
+.use-list dd {
+    list-style-type: " - ";
+}
+
+.reference {
+    font-size: 0.75rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
