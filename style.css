@@ -84,6 +84,22 @@ dd {
     padding-bottom: 0.5rem;
 }
 
+#hybridimg {
+    max-width: 18rem;
+    float: right;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 0.5rem;
+}
+
+#scleralimg {
+    max-width: 16rem;
+    float: right;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 0.5rem;
+}
+
 table {
     margin: 1rem;
     margin-left: auto;
