@@ -100,6 +100,32 @@ dd {
     padding-bottom: 0.5rem;
 }
 
+.solutionimg {
+    max-width: 12rem;
+    max-height: 10rem;
+    margin: 0.25rem;
+}
+
+#peroxidetable {
+    width: 20.7rem;
+}
+
+#softmpstable {
+    width: 32.2rem;
+}
+
+#rigidmpstable {
+    width: 17.2rem;
+}
+
+#advancetable {
+    width: 10.2rem;
+}
+
+#progenttable {
+    width: 10.2rem;
+}
+
 table {
     margin: 1rem;
     margin-left: auto;
@@ -174,7 +200,7 @@ table, th, td {
 }
 
 #dropdown-content li {
-    padding-right: 4rem;
+    padding-right: 3.3rem;
 }
 
 .dropdown:hover #dropdown-content {
